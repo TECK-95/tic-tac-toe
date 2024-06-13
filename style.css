@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#gridContainer {
+    margin: 0 20% 10% 20%;
+    height: 60vh;
+    width: 60vw;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas:
+        "one two three"
+        "four five six"
+        "seven eight nine";
+    gap: 0.2%;
+}
+
+.board {
+    border: solid 5px black;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
